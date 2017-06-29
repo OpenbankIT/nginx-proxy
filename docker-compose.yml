@@ -2,7 +2,7 @@ version: '2'
 services:
   nginx-reverse:
     restart: always
-    container_name: smartmoney-reverse-nginx
+    container_name: openbankit-reverse-nginx
     build: docker/nginx
     ports:
       - "80:80"
